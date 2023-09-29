@@ -24,5 +24,5 @@ module.exports = {
       ? '/' +
         process.env.REPO_NAME +
         __dirname.substring(process.env.GITHUB_WORKSPACE.length)
-      : 'https://github.com/wwwenyix/MentalRotationExample/'
+      : 'https://github.com/wwwenyix/MentalRotationExample/tree/gh-pages/'
 };
