@@ -21,7 +21,7 @@ module.exports = {
   },
   publicPath:
     process.env.NODE_ENV === 'production' && process.env.REPO_NAME
-      ? '/' +
+      ? 'https://github.com/wwwenyix/MentalRotationExample/tree/gh-pages/' +
         process.env.REPO_NAME +
         __dirname.substring(process.env.GITHUB_WORKSPACE.length)
       : 'https://github.com/wwwenyix/MentalRotationExample/tree/gh-pages/'
