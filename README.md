@@ -1,6 +1,6 @@
 # project-name
 
-This is a sample experiment using magpie..
+This is a sample experiment using magpie...
 ### Setup
 
 First, set up the project with `npm install`
