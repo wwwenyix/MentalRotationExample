@@ -69,3 +69,5 @@ jobs:
           folder: ${{ matrix.folder }}/dist
           target-folder: ${{ matrix.folder }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          single-commit: true
+
